@@ -1,12 +1,12 @@
 import cv2
-from ultralytics import YOLO
-from datetime import datetime
-from playsound import playsound
-import threading
-import time
+from ultralytics  import YOLO
+from datetime  import datetime
+from playsound  import playsound
+import  threading
+import  time
 
 # Load YOLOv8 nano model
-model = YOLO("yolov8n.pt")
+model =  YOLO("yolov8n.pt")
 
 # Open webcam with fixed resolution
 cap = cv2.VideoCapture(0)
@@ -108,6 +108,7 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
  
+
 
 
 
